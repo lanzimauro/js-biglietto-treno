@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#container {
+    height: 100vh;
+    display: flex;
+}
+
+#centra {
+    margin: auto;
+    display: none;
+}
+
+#centra.visible {
+    display: block;
+}
